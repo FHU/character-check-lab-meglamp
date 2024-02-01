@@ -9,8 +9,7 @@ def check_character(word, index):
         return("white space")
     else:
         return("unknown")
-    
-   
+      
 
 in1 = input()
 in2 = int(input())
