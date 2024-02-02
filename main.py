@@ -10,7 +10,7 @@ def check_character(word, index):
     else:
         return("unknown")
       
-
-in1 = input()
-in2 = int(input())
-print(check_character(in1,in2))
+if __name__ == '__main__':
+    in1 = input()
+    in2 = int(input())
+    print(check_character(in1,in2))
