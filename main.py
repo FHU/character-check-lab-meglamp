@@ -9,6 +9,7 @@ def check_character(word, index):
         return("white space")
     else:
         return("unknown")
+        
       
 if __name__ == '__main__':
     in1 = input()
